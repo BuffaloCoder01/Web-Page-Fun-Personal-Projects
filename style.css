@@ -1,0 +1,32 @@
+
+
+.col-centered{
+        float: none;
+        margin: 0 auto;
+    }
+
+body {
+
+  background-color: rgba(92, 129, 156, 1.0);
+	
+}
+
+
+p{
+
+padding-bottom: 8em;
+
+
+}
+
+.dos{
+
+padding-top: 3em;
+
+}
+
+.tres{
+
+padding-top: 3em;
+
+}
