@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8"> 
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+    
+
+<!-- My CSS File -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+<script>
+ 
+$(document).ready(function() {
+  function getRandomColor() {
+    var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+    return randomColor;
+  }
+
+  $("button").click(function() {
+    $(this).css(
+      'background-color', "#" + getRandomColor()
+    );
+  
+  $("button").hover(function() {
+    $("body").css(
+      'background-color', "#" + getRandomColor()
+      );
+
+
+  });
+
+  });
+});
+
+</script>
+
+
+
+  </head>
+  <body>
+
+  <div class="jumbotron, container">
+    <h1 class="display-1">FIRST PROJECT</h1>
+    <p class="lead">Click a button that button will change to a random color......  Hover over a button and the background changes to a random color.</p>
+  </div>
+
+
+
+  <!--   First Row    -->
+
+
+
+   <div class="row">
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 1</button></div>
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 2</button></div>
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 3</button></div>
+</div>
+
+<!--     Second Row   -->
+
+
+<div class="row dos">
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 4</button></div>
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 5</button></div>
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 6</button></div>
+</div>
+
+
+<!--     Third Row    -->
+
+<div class="row tres">
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 7</button></div>
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 8</button></div>
+  <div class="col-sm-4"><button type="button" class="btn btn-warning">Button 9</button></div>
+</div>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+   
+
+
+
+
+  </body>
+</html>
